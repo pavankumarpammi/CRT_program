@@ -15,11 +15,13 @@ class Bill:
                          print("Phone number:",self.phone)
                          print("village :",row['village'])
                          print("pincode :",row['pincode'])
-                    else:
-                         print("Invalid username or password")
-                         ob=Bill()
-                         ob.form()
-            print("Thank you for shopping 👍👍! Have Nice day......👋👋")
+                         print("Thank you for shopping 👍👍! Have Nice day......👋👋")
+                         return 
+                else:
+                        print("Invalid username or password")
+                        ob=Bill()
+                        ob.form()
+            
 # ob=Bill()
 # ob.form()
     
